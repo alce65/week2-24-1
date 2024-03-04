@@ -3,10 +3,18 @@
   "version": "1.0.0",
   "description": "Información y ejemplos del Bootcamp de ISDI-Coders",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-xo": "^0.44.0",
+    "husky": "^9.0.11"
+  }
 }
