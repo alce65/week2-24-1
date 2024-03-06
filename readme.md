@@ -65,7 +65,7 @@ Configurar Babel en el fichero package.json
 ```
 
 Para que ESLint no de errores con Jest,
-en el fichero  .eslintrc.json añadir:
+en el fichero .eslintrc.json añadir:
 
 ```json
 {
@@ -91,5 +91,5 @@ Finalmente, en el fichero package.json añadimos los scrips necesarios con las d
 
 ```json
     "test": "jest",
-    "test:dev": "jest --watchAll,
+    "test:dev": "jest --watchAll",
 ```
