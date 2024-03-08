@@ -237,7 +237,7 @@ Entre otras cosas
 Aunque no suele hacerse, una función puede tener propiedades como cualquier otro objeto
 
 ```js
- const foo = () => {
+  const foo = () => {
     console.log('Soy foo');
   };
 
