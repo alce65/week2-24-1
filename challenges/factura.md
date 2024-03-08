@@ -6,3 +6,7 @@ Las facturas están formadas por la información de la propia empresa (nombre de
 
 Se incluyen 2 métodos públicos 1) calcula el importe total de la factura y actualice el valor de la propiedad correspondiente. 2) muestre por pantalla el importe total de la factura.
 Opción: el primero de los métodos puede redefinirse como privado.
+
+
+
+
